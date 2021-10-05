@@ -1,0 +1,10 @@
+[Unit]
+Description=Start homer-virus when flash disk mounted
+Requires=media-YourMediaLabel.mount
+After=media-YourMediaLabel.mount
+
+[Service]
+ExecStart=/home/you/.homer-virus/virus.sh
+
+[Install]
+WantedBy=media-YourMediaLabel.mount
