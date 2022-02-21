@@ -1,5 +1,5 @@
 # homer-virus
-shellový skrpt, co při zasunutí flashky do USB vypne X server a v konzoli si hraje na virus, který požaduje heslo. Po zadání hesla se nastartuje X znovu s odlehčeným prostředím a moutne se ta flashka.
+shellový skript, co při zasunutí flashky do USB vypne X server a v konzoli si hraje na virus, který požaduje heslo. Po zadání hesla se nastartuje X znovu s odlehčeným prostředím a moutne se ta flashka.
 ## jak to zprovoznit?
 * Nainstalujeme závislosti: `figlet, espeak, pv`
 * Aby se spustil skript po vložení flashky, tak tady máme systemd službu `homer-virus.service`. Musíme si ji však před povolením upravit podle svých potřeb:
